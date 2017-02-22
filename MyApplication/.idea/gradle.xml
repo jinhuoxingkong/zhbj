@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/SlidingMenu-master" />
+            <option value="$PROJECT_DIR$/ViewPagerIndicator-master" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/xUtils-master" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

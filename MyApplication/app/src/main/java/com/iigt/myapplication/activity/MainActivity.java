@@ -58,5 +58,21 @@ public class MainActivity extends SlidingFragmentActivity {
         transaction.commit();
     }
 
+    //获取侧边栏的对象
+    public LeftMenuFragment getLeftMenuFragment() {
+        FragmentManager fm = getFragmentManager();
+        LeftMenuFragment fragment = (LeftMenuFragment) fm
+                .findFragmentByTag(TAG_LEFT_MENU);// 根据标记找到对应的fragment
+        return fragment;
+    }
+
+    // 获取主页fragment对象
+    public ContentFragment getContentFragment() {
+        FragmentManager fm = getFragmentManager();
+        ContentFragment fragment = (ContentFragment) fm
+                .findFragmentByTag(TAG_CONTENT);// 根据标记找到对应的fragment
+        return fragment;
+    }
+
 
 }

@@ -28,4 +28,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile project(':SlidingMenu-master')
+    compile project(':xUtils-master')
+    compile files('libs/gson-2.3.1.jar')
+    compile project(':ViewPagerIndicator-master')
 }

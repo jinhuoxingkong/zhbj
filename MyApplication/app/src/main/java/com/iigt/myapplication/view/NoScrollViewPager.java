@@ -21,4 +21,9 @@ public class NoScrollViewPager extends ViewPager {
         return true;
     }
 
+    //不拦截子控件的事件
+    @Override
+    public boolean onInterceptHoverEvent(MotionEvent event) {
+        return false;
+    }
 }

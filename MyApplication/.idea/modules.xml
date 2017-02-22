@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" filepath="$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator-master/ViewPagerIndicator-master.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator-master/ViewPagerIndicator-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xUtils-master/xUtils-master.iml" filepath="$PROJECT_DIR$/xUtils-master/xUtils-master.iml" />
     </modules>
   </component>
 </project>

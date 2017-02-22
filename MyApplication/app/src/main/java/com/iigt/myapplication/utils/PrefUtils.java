@@ -23,7 +23,7 @@ public class PrefUtils {
         sp.edit().putString(key, value).commit();
     }
 
-    public static String getString(Context ctx, String key, String value, String defValue){
+    public static String getString(Context ctx, String key, String defValue){
         SharedPreferences sp = ctx.getSharedPreferences("config", Context.MODE_PRIVATE);
         return sp.getString(key, defValue);
     }
@@ -33,7 +33,7 @@ public class PrefUtils {
         sp.edit().putInt(key, value).commit();
     }
 
-    public static int getInt(Context ctx, String key, int value, int defValue){
+    public static int getInt(Context ctx, String key, int defValue){
         SharedPreferences sp = ctx.getSharedPreferences("config", Context.MODE_PRIVATE);
         return sp.getInt(key, defValue);
     }
